@@ -55,6 +55,13 @@ a:hover{
     color: #30306C;
 }
 
+
+.bottoni{
+    position: fixed;
+    right: 5%;
+    top: 1%;
+}
+
 .button{
     background-color: rgb(7, 1, 87);
     color: #FFFFFF;
@@ -64,6 +71,9 @@ a:hover{
     padding:0px 9px ;
     border: none;
     border-radius: 26px;
+    margin-right: 20px;
+    line-height: 42px;
+    display: inline-flex;
     
 
 }
@@ -101,6 +111,9 @@ header{
     background-color:rgb(255, 255, 255);
     z-index: 5;
     padding: 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
   /*  background:linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 31%);*/
 }
 
