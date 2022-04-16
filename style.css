@@ -4,6 +4,31 @@
     padding: 0;
 }
 
+.whoarewe{
+    margin-top: 80px;
+    text-align: center;
+    color: #30306C;
+    font-size: xx-large;
+
+}
+
+.alignment{
+    margin-top: 100px;
+    margin-left: 900px;
+    align-content: center;
+    color: #FF974B;
+    font-size: xx-large;
+    text-align: justify;
+
+}
+
+.firstimagehome{
+    background-image: url(img/affitto-casa-studenti.png);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
 body{
     background-color:linear-gradient(0deg, rgb(170, 26, 26) 0%, rgb(73, 3, 58) 31%);
     background-color: rgb(218, 218, 218);
@@ -39,7 +64,8 @@ p{
     font-size: 16px;
     margin-bottom:12px;
     margin-left: 30px;
-   /* margin-top: 9px;
+    /*
+    margin-top: 9px;
     margin-bottom:9px;
     margin-left: 280px;*/
 }
@@ -55,14 +81,13 @@ a:hover{
     color: #30306C;
 }
 
-
-.bottoni{
+.headerbuttons{
     position: fixed;
     right: 2%;
     top: 1%;
 }
 
-.button{
+.blubuttons{
     background-color: rgb(7, 1, 87);
     color: #FFFFFF;
     font-size: 13px;
@@ -74,8 +99,6 @@ a:hover{
     margin-right: 20px;
     line-height: 42px;
     display: inline-flex;
-    
-
 }
 
 
