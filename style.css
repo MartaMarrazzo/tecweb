@@ -42,10 +42,14 @@
 }
 
 .customers{
-    color: #30306C;
+    background-image: url(img/rettangolo_arancione-removebg-preview.png);
     margin-left: 7%;
-    height: 20%;
-    width: 80%;
+    height: 298px;
+    width: 838px;
+}
+
+.customerstext{
+    color: #30306C;
 }
 
 .alignment{
