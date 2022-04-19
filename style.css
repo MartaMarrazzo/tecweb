@@ -99,10 +99,7 @@ p{
     font-size: 16px;
     margin-bottom:12px;
     margin-left: 30px;
-    /*
-    margin-top: 9px;
-    margin-bottom:9px;
-    margin-left: 280px;*/
+
 }
 
 
@@ -315,6 +312,8 @@ footer{
         display: table;
         clear: both;
     }
+
+
 
     .faq-container{
     display: flex;
