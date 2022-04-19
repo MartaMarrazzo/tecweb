@@ -5,11 +5,23 @@
 }
 
 .whoarewe{
-    margin-top: 80px;
-    text-align: center;
+    margin-top: 60px;
+    margin-left: 45%;
     color: #30306C;
     font-size: xx-large;
+    font-weight: bolder;
+    float: left;
+}
 
+.whoarewetext{
+    margin-left: 200px;
+    color: black;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.locationimage{
+    margin-top: 32px;
 }
 
 .alignment{
@@ -19,7 +31,6 @@
     color: #FF974B;
     font-size: xx-large;
     text-align: justify;
-
 }
 
 .firstimagehome{
