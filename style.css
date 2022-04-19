@@ -4,12 +4,48 @@
     padding: 0;
 }
 
-.titolo{
-    margin-top: 80px;
-    text-align: center;
+.whoarewe{
+    margin-top: 100px;
+    margin-left: 45%;
     color: #30306C;
     font-size: xx-large;
+    font-weight: bolder;
+    float: left;
+}
 
+.whoarewetext{
+    margin-left: 135px;
+    color: black;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.locationimage{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+}
+
+.treimmagini{
+    margin-left: 10%;
+    padding-left: 5.8%;
+    height: auto;
+    width: auto;
+}
+
+.treimmaginitext{
+    font-size: small;
+    float: left;
+    padding-left: 13.8%;
+    color:#30306C;
+    text-align: center;
+}
+
+.customers{
+    color: #30306C;
+    margin-left: 7%;
+    height: 20%;
+    width: 80%;
 }
 
 
@@ -20,19 +56,18 @@
     color: #FF974B;
     font-size: xx-large;
     text-align: justify;
-
 }
 
 .firstimagehome{
     background-image: url(img/affitto-casa-studenti.png);
-    height: 500px;
+    height: 450px;
     width: 100%;
     text-align: center;
 }
 
 body{
     background-color:linear-gradient(0deg, rgb(170, 26, 26) 0%, rgb(73, 3, 58) 31%);
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(255, 255, 255);
     color:#FFFFFF;
     font-family: 'Work Sans', sans-serif;
     font-size: 100%;
@@ -212,8 +247,7 @@ menu ul{
     height: auto;
 }
 
-.icon-contact-info{
-}
+
 
 .maintext-contact{
     text-align: center;
@@ -321,6 +355,48 @@ footer{
         display: table;
         clear: both;
     }
+
+    .faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    .faq-page {
+        color: #30306C;
+        cursor: pointer;
+        padding: 30px 20px;
+        width: 60%;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin: auto;
+    }
+    
+    .active,
+    .faq-page:hover {
+        background-color: #FF974B;
+    }
+    .faq-body {
+        padding: 10px 20px;
+        background-color: #30306C ;
+        display: none;
+        overflow: hidden;
+        margin: auto;
+        width: 60%; 
+        padding: auto;
+    }
+    .faq-page:after {
+        content: '\02795'; /* Unicode  (+) */
+        font-size: 13px;
+        color: #30306C;
+        float: right;
+        margin-left: 5px;
+    }
+    .active:after {
+        content: "\2796"; /* Unicode (-) */
+    }
+
 
 .back-to-top{
     background-image: url('img/1500306-icona-freccia-verso-l-alto-gratuito-vettoriale.png');
