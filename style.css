@@ -4,13 +4,14 @@
     padding: 0;
 }
 
-.whoarewe{
+.titolo{
     margin-top: 80px;
     text-align: center;
     color: #30306C;
     font-size: xx-large;
 
 }
+
 
 .alignment{
     margin-top: 100px;
@@ -102,9 +103,8 @@ a:hover{
 }
 
 
-.button:hover{
-    background-color: rgb(237, 157, 76);
-    color: #30306C;
+.blubuttons:hover{
+    color: rgb(237, 157, 76);
 }
 
 
@@ -156,6 +156,7 @@ img{
     height: auto;
 }
 
+
 .name{
     margin-left: 10px;
     margin-right: 64px;
@@ -190,8 +191,48 @@ menu ul{
 
 }
 
+
+
+.contacts-section{
+    margin-top: 2000px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactscolumn{
+    float: left;
+    width: 45%;
+    padding: 30px;
+}
+
+
+.icon-contacts{
+    width: 350px;
+    height: auto;
+}
+
+.icon-contact-info{
+}
+
+.maintext-contact{
+    text-align: center;
+    color: #FF974B;
+    font-size: xx-large;
+
+}
+
+.contact-info{
+    font-size: 16px;
+    margin-bottom:12px;
+    text-align: center;
+    color: #30306C;
+
+}
 footer{
-    margin-top: 1000px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-support-text-owned {
