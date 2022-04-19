@@ -316,6 +316,48 @@ footer{
         clear: both;
     }
 
+    .faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    .faq-page {
+        color: #30306C;
+        cursor: pointer;
+        padding: 30px 20px;
+        width: 60%;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin: auto;
+    }
+    
+    .active,
+    .faq-page:hover {
+        background-color: #FF974B;
+    }
+    .faq-body {
+        padding: 10px 20px;
+        background-color: #30306C ;
+        display: none;
+        overflow: hidden;
+        margin: auto;
+        width: 60%; 
+        padding: auto;
+    }
+    .faq-page:after {
+        content: '\02795'; /* Unicode  (+) */
+        font-size: 13px;
+        color: #30306C;
+        float: right;
+        margin-left: 5px;
+    }
+    .active:after {
+        content: "\2796"; /* Unicode (-) */
+    }
+
+
 .back-to-top{
     background-image: url('img/1500306-icona-freccia-verso-l-alto-gratuito-vettoriale.png');
     background-size: contain ;
