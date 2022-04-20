@@ -5,26 +5,27 @@
 }
 
 .whoarewe{
-    margin-top: 100px;
-    margin-left: 45%;
+    margin-top: 5%;
+    text-align: center;
     color: #30306C;
     font-size: xx-large;
     font-weight: bolder;
-    float: left;
+}
+
+.iconimage{
+    height: auto;
+    width: 40px;
 }
 
 .whoarewetext{
-    margin-left: 135px;
+    padding: 30px;
+    text-align: center;
     color: black;
     text-align: justify;
     font-size: x-large;
 }
 
-.locationimage{
-    margin-top: 30px;
-    height: auto;
-    width: auto;
-}
+
 
 .treimmagini{
     margin-left: 10%;
@@ -63,6 +64,7 @@
     height: 450px;
     width: 100%;
     text-align: center;
+    display: flex;
 }
 
 body{
@@ -110,7 +112,7 @@ p{
 
 .about{
     width: 45%;
-    margin: 0px0px;
+    margin: 0px 0px;
 }
 
 a:hover{
@@ -229,7 +231,7 @@ menu ul{
 
 
 .contacts-section{
-    margin-top: 2000px;
+    margin-bottom: 200px;
     margin-left: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +252,7 @@ menu ul{
 
 
 .maintext-contact{
-    text-align: center;
+    text-align:center;
     color: #FF974B;
     font-size: xx-large;
 
