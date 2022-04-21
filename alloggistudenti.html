@@ -15,14 +15,14 @@
 </head>
 <body>
 <header class="header">
-        <div class="logo"><img src="img/Logo.png" alt="Logo"></div>
+        <div class="logo"><img class="logoimmagine" src="img/Logo.png" alt="Logo"></div>
         <div class="name">ALLOGGISTUDENTI.com</div>
         <nav class="menu" fixed="right">
             <ul>
                 <li><a href="#cs">Chi siamo</a></li>
-                <li><a>Regolamento</a></li>
-                <li><a href="#faq">F.A.Q.</a></li>
-                <li><a href="#contacts">Contatti</a></li>          
+                <li><a href="#" >Regolamento</a></li>
+                <li><a href="#" >F.A.Q.</a></li>
+                <li><a href="#contatti">Contatti</a></li>          
             </ul>
         </nav>
         <div class="headerbuttons">
@@ -31,13 +31,13 @@
         </div>
 </header>
 
+<section class="home">
 <section class="firstimagehome">
   <p class="alignment"><b>TROVA L'ALLOGGIO<br>GIUSTO PER TE</b></p>
 </section>
 <br id="cs">
-  <p class="whoarewe">Chi siamo <img class="iconimage" src="img/posizione.png" alt="Logo posizione geografica"> </p>
+  <p class="titolo">Chi siamo <img class="iconimage" src="img/posizione.png" alt="Logo posizione geografica"> </p>
   <div>
-   
     <p class="whoarewetext">Sei uno studente e cerchi un alloggio nella tua città universitaria?
       <br> Migliaia di studenti si affidano a noi ogni anno! Il nostro sito ti consentirà di trovare la casa che
       <br> fa per te. Potrai visualizzare tutti gli annunci disponibili nella tua città di interesse e valutare in 
@@ -45,7 +45,10 @@
     </p>
   </div>
 </div>
+</section>
 
+
+<section class="sezionetreimmagini">
 <div>
   <img class="treimmagini" src="img/lente.png" alt="Lente arancione">
   <img class="treimmagini" src="img/megafono.png" alt="Megafono arancione">
@@ -148,19 +151,17 @@
       <script src="faq-js.js"></script>
 </section>
 
-<div class="centro">
-<div><p class="whoarewe">Inserisci la tua mail per rimanere aggiornato</p></div>
+<section class="centro">
+<div><p class="titolo">Inserisci la tua mail per rimanere aggiornato</p></div>
 <input type="text" value="" name="email" id="newsletter" placeholder="Inserisci la tua Email" title="Iscriviti alla nostra newsletter" class="areaEmail">
 <button type="submit" title="Sottoscrivi"  class="blubuttons">Invia</button>
-</div>
+</section>
 
 
-<p class="titolo"><b>Chi siamo</b></p>
-
-<section id="contacts" class="contacts-section">
+<section class="contacts-section" id="contatti">
   
   <div class="contactscolumn">
-    <div><img class="icon-contacts" src="img/Screenshot (314).png" alt="Icon"></div>
+    <div><img class="icon-contacts" src="img/imgcontatti.png" alt="Icon"></div>
   </div>
 
   <div class="contactscolumn">
@@ -186,7 +187,7 @@
       <div class="column column-2">
         <h2 class="small-footer-header">website</h2>
         <p class="footer-support-text">
-          <a class="footer-link" href="" target="_self" >Chi siamo</a>
+          <a class="footer-link" href="#cs" target="_self" >Chi siamo</a>
         </p>
         <p class="footer-support-text">
           <a class="footer-link" href="" target="_self">Regolamento</a>
@@ -195,7 +196,7 @@
           <a class="footer-link" href="" target="self">F.A.Q.</a>
         </p>
         <p class="footer-support-text">
-            <a class="footer-link" href="" target="self">Contatti.</a>
+            <a class="footer-link" href="#contatti" target="self">Contatti</a>
           </p>
       </div>
       <div class="column column-3">
@@ -217,6 +218,3 @@
   </footer>
 
 <div id ="backBtn" class="back-to-top"></div>
-
-</body>
-</html>

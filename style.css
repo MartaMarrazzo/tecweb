@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-.whoarewe{
+/* home*/
+.titolo{
     margin-top: 5%;
     text-align: center;
     color: #30306C;
@@ -28,6 +29,7 @@
 }
 
 
+/* sezione con tre immagini*/
 
 .treimmagini{
     margin-left: 10%;
@@ -159,13 +161,15 @@ a {
 
 
 
-p{
+p {
     font-size: 16px;
     margin-bottom:12px;
     margin-left: 30px;
 
 }
-
+a:hover{
+    color: #30306C;
+}
 
 
 .about{
@@ -173,9 +177,21 @@ p{
     margin: 0px 0px;
 }
 
-a:hover{
-    color: #30306C;
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    z-index: 5;
+    padding: 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  /*  background:linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 31%);*/
 }
+
 
 .headerbuttons{
     position: fixed;
@@ -202,33 +218,6 @@ a:hover{
     color: rgb(237, 157, 76);
 }
 
-
-
-.centro{
-    text-align: center;
-}
-
-.areaEmail{
-    width: auto;
-    font-size: 13px;
-    font-weight: 700;
-    border-radius: 26px;
-    line-height: 42px;
-    display: inline-flex;
-    background-color: #FF974B;
-    text-align: center;
-}
-
-
-.container{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1140px; /* in modo da vincolare l'estensione massima
-    in modo che resti tutto contenuto e compresso senza rompere il layout*/
-
-}
-
 section{
     padding-bottom: 64px;
     padding-top: 64px;
@@ -238,19 +227,6 @@ section{
     align-self: flex-end;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color:rgb(255, 255, 255);
-    z-index: 5;
-    padding: 5px 5px;
-    display: flex;
-    flex-wrap: wrap;
-    
-  /*  background:linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 31%);*/
-}
 
 .header-container{
    /* width: 80%;*/
@@ -264,11 +240,14 @@ header{
 }
 
 img{
-    width: 40px;
+    width: 80px;
     height: auto;
 }
 
-
+.logoimmagine{
+    width: 40px;
+    height: auto;
+}
 .name{
     margin-left: 10px;
     margin-right: 64px;
@@ -302,8 +281,36 @@ menu ul{
     top: -50px;
 
 }
+/*centro*/
+
+.centro{
+    text-align: center;
+}
+
+.areaEmail{
+    width: auto;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 26px;
+    line-height: 42px;
+    display: inline-flex;
+    background-color: #FF974B;
+    text-align: center;
+}
 
 
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px; /* in modo da vincolare l'estensione massima
+    in modo che resti tutto contenuto e compresso senza rompere il layout*/
+
+}
+
+
+
+/*contatti*/
 
 .contacts-section{
     margin-bottom: 200px;
@@ -340,6 +347,8 @@ menu ul{
     color: #30306C;
 
 }
+
+/*footer*/
 footer{
     margin-top: 100px;
     display: flex;
@@ -433,7 +442,7 @@ footer{
         clear: both;
     }
 
-
+/*FAQ*/
 
     .faq-container{
     display: flex;
@@ -477,6 +486,7 @@ footer{
     }
 
 
+/*bottone*/
 .back-to-top{
     background-image: url('img/1500306-icona-freccia-verso-l-alto-gratuito-vettoriale.png');
     background-size: contain ;
