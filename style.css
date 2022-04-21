@@ -31,11 +31,16 @@
 
 /* sezione con tre immagini*/
 
+.divtreimmagini{
+    margin-top: 5%;
+    padding-left: 17%;
+    height: 250px;
+
+}
+
 .treimmagini{
-    margin-left: 10%;
-    padding-left: 5.8%;
-    height: auto;
-    width: auto;
+    height: 150px;
+    width: 200px;
 }
 
 .treimmaginitext{
@@ -97,6 +102,7 @@
     width: 200px;
     height: 280px;
     text-align: justify;
+    float:left;
 }
 
 .divtextspaces{
@@ -104,7 +110,6 @@
     height: 30px;
     border: white;
 }
-
 
 .alignment{
     margin-top: 100px;
@@ -126,7 +131,6 @@
 .spaceline{
     width: 15%;
     background-color: black;
-    size: 10;
     margin-left: 42%;
 }
 
