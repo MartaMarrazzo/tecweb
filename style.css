@@ -31,11 +31,16 @@
 
 /*tre immagini*/
 
+.divtreimmagini{
+    margin-top: 5%;
+    padding-left: 17%;
+    height: 250px;
+
+}
+
 .treimmagini{
-    margin-left: 10%;
-    padding-left: 5.8%;
-    height: auto;
-    width: auto;
+    height: 150px;
+    width: 200px;
 }
 
 .treimmaginitext{
@@ -97,6 +102,7 @@
     width: 200px;
     height: auto;
     text-align: justify;
+    float:left;
 }
 
 .divtextspaces{
@@ -104,7 +110,6 @@
     height: 30px;
     border: white;
 }
-
 
 .alignment{
     margin-top: 100px;
@@ -126,7 +131,6 @@
 .spaceline{
     width: 15%;
     background-color: black;
-    size: 10;
     margin-left: 42%;
 }
 
@@ -299,6 +303,7 @@ menu ul{
 }
 
 
+
 .container{
     width: 80%;
     margin-right: auto;
@@ -320,11 +325,17 @@ menu ul{
 }
 
 .contactscolumn{
+
     float: left;
     width: 45%;
     padding: 30px;
+    
 }
 
+
+.p.contactscolumn{
+    text-align: center;
+}
 
 .icon-contacts{
     width: 350px;
@@ -333,18 +344,19 @@ menu ul{
 
 
 
+
 .maintext-contact{
-    text-align:center;
     color: #FF974B;
     font-size: xx-large;
+    text-align: center;
 
 }
 
 .contact-info{
     font-size: 16px;
     margin-bottom:12px;
-    text-align: center;
     color: #30306C;
+    text-align: center;
 
 }
 
@@ -529,6 +541,16 @@ footer{
         content: "\2796"; /* Unicode (-) */
     }
 
+    
+    .bottomFooter{
+        background-color: #30306C;
+        color: #FF974B;
+        font-size: medium;
+        width: 100%;
+        height: 30px;
+        text-align: right;
+
+    }
 
 /*bottone*/
 .back-to-top{
