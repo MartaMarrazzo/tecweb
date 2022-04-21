@@ -18,6 +18,8 @@
     width: 40px;
 }
 
+
+
 .whoarewetext{
     padding: 30px;
     text-align: center;
@@ -44,15 +46,29 @@
     text-align: center;
 }
 
-.customers{
-    background-image: url(img/rettangolo_arancione-removebg-preview.png);
-    margin-left: 7%;
-    height: 298px;
-    width: 838px;
+.rectangle{
+    margin-left: 10%;
+    background: #FF974B;
+    width: 1100px;
+    height: 350px;
 }
 
-.customerstext{
+.rectangletext{
+    padding-top: 10px;
+    font-size: xx-large;
     color: #30306C;
+    text-align: center;
+}
+
+.circle{
+    margin-top: 5%;
+    margin-left: 10%;
+    border: groove;
+    border-radius: 60%;
+    border-color:#30306C;
+    background:#FF974B;
+    width: 350px;
+    height: 150px;
 }
 
 
@@ -71,6 +87,13 @@
     width: 100%;
     text-align: center;
     display: flex;
+}
+
+hr{
+    width: 15%;
+    background-color: black;
+    size: 10;
+    margin-left: 42%;
 }
 
 body{
