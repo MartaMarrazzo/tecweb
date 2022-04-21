@@ -88,14 +88,14 @@
 
 
 .cities{
-    width: 200px;
-    height: 180px;
+    width: 180px;
+    height: 160px;
 }
 
 .divcities{
     margin-right: 8%;
     width: 200px;
-    height: 280px;
+    height: auto;
     text-align: justify;
 }
 
@@ -346,6 +346,50 @@ menu ul{
     text-align: center;
     color: #30306C;
 
+}
+
+/*esplora città*/
+
+.container{
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+.griglia{
+    padding: 0;
+    margin: 0;
+}
+
+.griglia li{
+    display: inline-block;
+    margin: 15px;
+}
+
+.griglia ul li p{
+    padding: 5px 5px 0 5px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.fotocittà{
+    height: 210px;
+    width: 210px;
+}
+
+.arancione{
+    margin-left: 0%;
+    text-align: start;
+    color: #FF974B;
+    background-color: #FFFFFF;
+}
+
+.blu{
+    margin-left: 0%;
+    margin-top: -8px;
+    text-align: start;
+    background-color: #FFFFFF;
+    color: #30306C;
+    font-size: smaller;
 }
 
 /*footer*/
