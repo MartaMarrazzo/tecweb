@@ -360,14 +360,15 @@ menu ul{
 
 }
 
-/*esplora città*/
+/*esploracittà,3img*/
 
 .container{
     margin: 0 auto;
-    padding: 5px;
+    padding: 4px;
     text-align: center;
 }
-.griglia{
+.griglia
+.griglia3img{
     padding: 0;
     margin: 0;
 }
@@ -377,16 +378,26 @@ menu ul{
     margin: 15px;
 }
 
-.griglia ul li p{
+.griglia3img li{
+    display: inline-block;
+    margin: 50px;
+    padding: 5px;
+    border: 4px solid #30306C;
+}
+
+.griglia ul li p
+.griglia3img ul li p{
     padding: 5px 5px 0 5px;
     margin: 0;
     font-size: 12px;
 }
 
-.fotocittà{
+
+.foto{
     height: 210px;
     width: 210px;
 }
+
 
 .arancione{
     margin-left: 0%;
@@ -402,6 +413,15 @@ menu ul{
     background-color: #FFFFFF;
     color: #30306C;
     font-size: smaller;
+}
+
+.tuttelecittà{
+    text-align: center;
+    color: #FF974B;
+    font-size: large;
+}
+.tuttelecittà:hover{
+    color: #30306C;
 }
 
 /*footer*/
