@@ -299,6 +299,7 @@ menu ul{
 }
 
 
+
 .container{
     width: 80%;
     margin-right: auto;
@@ -320,11 +321,17 @@ menu ul{
 }
 
 .contactscolumn{
+
     float: left;
     width: 45%;
     padding: 30px;
+    
 }
 
+
+.p.contactscolumn{
+    text-align: center;
+}
 
 .icon-contacts{
     width: 350px;
@@ -333,18 +340,19 @@ menu ul{
 
 
 
+
 .maintext-contact{
-    text-align:center;
     color: #FF974B;
     font-size: xx-large;
+    text-align: center;
 
 }
 
 .contact-info{
     font-size: 16px;
     margin-bottom:12px;
-    text-align: center;
     color: #30306C;
+    text-align: center;
 
 }
 
