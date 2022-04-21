@@ -493,6 +493,16 @@ footer{
         content: "\2796"; /* Unicode (-) */
     }
 
+    
+    .bottomFooter{
+        background-color: #30306C;
+        color: #FF974B;
+        font-size: medium;
+        width: 100%;
+        height: 30px;
+        text-align: right;
+
+    }
 
 /*bottone*/
 .back-to-top{
