@@ -8,4 +8,4 @@ for (i = 0; i < faq.length; i++) {
                                                      else body.style.display = "block";
                                                 }
                             );
-}
+};
