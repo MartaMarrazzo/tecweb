@@ -19,4 +19,5 @@ function creaSlide(n, no) {
     x[i].style.display = "none";
   }
   x[slideTab[no]-1].style.display = "block";
+
 }
