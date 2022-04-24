@@ -56,6 +56,13 @@
     background: #FF974B;
     width: 1100px;
     height: 350px;
+
+}
+
+@media screen and (max-width:1250px){
+    .rectangle{
+        display: none;
+    }
 }
 
 .rectangletext{
@@ -331,7 +338,14 @@ menu ul{
     padding: 30px;
     
 }
-
+@media screen and (max-width:800px){
+    .imgcontactscolumn{
+        display: none;    
+    }
+    .contactscolumn{
+        width: 100%;
+    }
+}
 
 .p.contactscolumn{
     text-align: center;
@@ -444,17 +458,28 @@ footer{
 .footer-container {
     background-color: rgb(237, 157, 76); /* Optional */
     display: grid;
-    grid-gap: 1rem; /* Optional */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1rem; /* Optional */
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 15px;
-    margin-top: 15px;
+
 }
     
+@media screen and (max-width:1100px){
+    .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .firstimagehome{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .alignment{
+        margin-top: 10;
+        margin-left: 15px;
+        align-content: none;
+        font-size:40px;
+        text-align: justify;
+    }
+}
+
 .column {
     color: #30306C;
     grid-template-columns: 1fr 1fr 1fr;
@@ -519,6 +544,18 @@ footer{
         clear: both;
     }
 
+    
+.bottomFooter{
+    background-color: #30306C;
+    color: #FF974B;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+
 /*FAQ*/
 
     .faq-container{
@@ -560,17 +597,6 @@ footer{
     }
     .active:after {
         content: "\2796"; /* Unicode (-) */
-    }
-
-    
-    .bottomFooter{
-        background-color: #30306C;
-        color: #FF974B;
-        font-size: medium;
-        width: 100%;
-        height: 30px;
-        text-align: right;
-
     }
 
 /*bottone*/
