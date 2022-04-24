@@ -5,6 +5,11 @@
 }
 
 /* home*/
+
+.home{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 .titolo{
     margin-top: 5%;
     text-align: center;
@@ -230,8 +235,8 @@ header{
 }
 
 section{
-    padding-bottom: 64px;
-    padding-top: 64px;
+    padding-bottom: 34px;
+    padding-top: 34px;
 }
 
 .hero-cta{
@@ -261,8 +266,8 @@ img{
 }
 .name{
     margin-left: 10px;
-    margin-right: 64px;
-    font-size: 36px;
+    margin-right: 140px;
+    font-size: 33px;
     font-weight: 300;
     color: #30306C;
     line-height: 42px;}
@@ -274,16 +279,16 @@ menu ul{
 
 .menu ul li{
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 42px;
     display: inline-flex;
 }
 
 .menu ul li a {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 14px;
 }  
 
 .anchors{
@@ -376,6 +381,10 @@ menu ul{
 
 /*esploracittà,3img*/
 
+.treimg{
+    margin-top: 0;
+    padding-top: 0;
+}
 .container{
     margin: 0 auto;
     padding: 4px;
