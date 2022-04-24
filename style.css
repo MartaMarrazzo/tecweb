@@ -57,12 +57,37 @@
 }
 
 .rectangle{
-    margin-left: 10%;
-    background: #FF974B;
-    width: 1100px;
+    margin: 3%;
+    width: auto;
+    background: #faad77;
     height: 350px;
 
 }
+
+.prec, .succ {
+    cursor: pointer;
+    user-select:none;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height:40px;
+    border:2px solid #DDDDDD;
+    color: rgb(45,45,45);
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius:50%;
+    text-align: center;
+    line-height: 38px;
+  }
+  .succ {
+    right: 0;
+  }
+  .prec:hover, .succ:hover {
+    background-color: #DDDDDD;
+    color: black;
+  }
+
+
 
 @media screen and (max-width:1250px){
     .rectangle{
@@ -71,7 +96,7 @@
 }
 
 .rectangletext{
-    padding-top: 10px;
+    padding-top: 8px;
     font-size: xx-large;
     color: #30306C;
     text-align: center;
@@ -79,9 +104,8 @@
 
 .student{
     margin-top: 2%;
-    margin-left: 5%;
     border-radius: 50%;
-    width: 300px;
+    width: 290px;
     height: 200px;
     border: groove;
     border-color: #30306C;;
@@ -97,9 +121,10 @@
 }
 
 .studentdescription{
-    padding-top: 5%;
+    padding: 4%;
     font-size: large;
-    color: black;
+    font-style:oblique;
+    color: #30306C;
     text-align: center;
 }
 
