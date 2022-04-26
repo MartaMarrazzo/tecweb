@@ -57,10 +57,9 @@
 }
 
 .rectangle{
-    margin: 3%;
     width: auto;
     background: #faad77;
-    height: 350px;
+    height: 380px;
 
 }
 
@@ -88,12 +87,6 @@
   }
 
 
-
-@media screen and (max-width:1250px){
-    .rectangle{
-        display: none;
-    }
-}
 
 .rectangletext{
     padding-top: 8px;
@@ -375,6 +368,10 @@ menu ul{
     }
     .contactscolumn{
         width: 100%;
+        padding: 0%;
+    }
+    .rectangle{
+        display: none;
     }
 }
 
@@ -449,7 +446,7 @@ menu ul{
 }
 
 
-.arancione{
+.arancione, .arancione2{
     margin-left: 0%;
     text-align: start;
     color: #FF974B;
@@ -463,6 +460,11 @@ menu ul{
     background-color: #FFFFFF;
     color: #30306C;
     font-size: smaller;
+}
+
+.arancione2{
+    font-size: xx-small;
+    margin-top: -20px;
 }
 
 .tuttelecittà{
@@ -507,7 +509,7 @@ footer{
         flex-wrap: wrap;
     }
     .alignment{
-        margin-top: 10;
+        margin-top: 170px;
         margin-left: 15px;
         align-content: none;
         font-size:40px;
@@ -649,3 +651,16 @@ footer{
     bottom: 80px;
     right: 30px;
 }
+
+
+.dot,.fulldot {
+    height: 8px;
+    width: 8px;
+    background-color: #FF974B;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .fulldot{
+      background-color: #30306C;
+  }
