@@ -112,12 +112,19 @@
 }
 
 .alignment{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 900px;
     align-content: center;
     color: #FF974B;
     font-size: xx-large;
     text-align: justify;
+}
+
+.keys{
+    width: auto;
+    height: auto;
+    rotate: 10%;
+    transform: rotate(50deg);
 }
 
 .firstimagehome{
@@ -565,11 +572,12 @@ footer{
     
     .bottomFooter{
         background-color: #30306C;
+        padding-top: 10px;
         color: #FF974B;
         font-size: medium;
         width: 100%;
-        height: 30px;
-        text-align: right;
+        height: 40px;
+        text-align: left;
 
     }
 
