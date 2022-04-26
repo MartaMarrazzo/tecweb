@@ -5,6 +5,11 @@
 }
 
 /* home*/
+
+.home{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 .titolo{
     margin-top: 5%;
     text-align: center;
@@ -52,14 +57,39 @@
 }
 
 .rectangle{
-    margin-left: 10%;
-    background: #FF974B;
-    width: 1100px;
-    height: 350px;
+    width: auto;
+    background: #faad77;
+    height: 380px;
+
 }
 
+.prec, .succ {
+    cursor: pointer;
+    user-select:none;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height:40px;
+    border:2px solid #DDDDDD;
+    color: rgb(45,45,45);
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius:50%;
+    text-align: center;
+    line-height: 38px;
+  }
+  .succ {
+    right: 0;
+  }
+  .prec:hover, .succ:hover {
+    background-color: #DDDDDD;
+    color: black;
+  }
+
+
+
 .rectangletext{
-    padding-top: 10px;
+    padding-top: 8px;
     font-size: xx-large;
     color: #30306C;
     text-align: center;
@@ -67,9 +97,9 @@
 
 .student{
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 2%;
     border-radius: 50%;
-    width: 300px;
+    width: 290px;
     height: 200px;
     border: groove;
     border-color: #30306C;;
@@ -85,9 +115,10 @@
 }
 
 .studentdescription{
-    padding-top: 5%;
+    padding: 4%;
     font-size: large;
-    color: black;
+    font-style:oblique;
+    color: #30306C;
     text-align: center;
 }
 
@@ -230,8 +261,8 @@ header{
 }
 
 section{
-    padding-bottom: 64px;
-    padding-top: 64px;
+    padding-bottom: 34px;
+    padding-top: 34px;
 }
 
 .hero-cta{
@@ -261,8 +292,8 @@ img{
 }
 .name{
     margin-left: 10px;
-    margin-right: 64px;
-    font-size: 36px;
+    margin-right: 140px;
+    font-size: 33px;
     font-weight: 300;
     color: #30306C;
     line-height: 42px;}
@@ -274,16 +305,16 @@ menu ul{
 
 .menu ul li{
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 42px;
     display: inline-flex;
 }
 
 .menu ul li a {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 14px;
 }  
 
 .anchors{
@@ -338,7 +369,18 @@ menu ul{
     padding: 30px;
     
 }
-
+@media screen and (max-width:800px){
+    .imgcontactscolumn{
+        display: none;    
+    }
+    .contactscolumn{
+        width: 100%;
+        padding: 0%;
+    }
+    .rectangle{
+        display: none;
+    }
+}
 
 .p.contactscolumn{
     text-align: center;
@@ -369,6 +411,10 @@ menu ul{
 
 /*esploracittà,3img*/
 
+.treimg{
+    margin-top: 0;
+    padding-top: 0;
+}
 .container{
     margin: 0 auto;
     padding: 4px;
@@ -389,8 +435,8 @@ menu ul{
     display: inline-block;
     margin: 40px;
     padding: 9px;
-    border: 4px solid #30306C;
-    border-radius: 30px;
+    /*border: 4px solid #30306C;
+    border-radius: 30px;*/
 }
 
 .griglia ul li p
@@ -407,7 +453,7 @@ menu ul{
 }
 
 
-.arancione{
+.arancione, .arancione2{
     margin-left: 0%;
     text-align: start;
     color: #FF974B;
@@ -421,6 +467,11 @@ menu ul{
     background-color: #FFFFFF;
     color: #30306C;
     font-size: smaller;
+}
+
+.arancione2{
+    font-size: xx-small;
+    margin-top: -20px;
 }
 
 .tuttelecittà{
@@ -451,17 +502,28 @@ footer{
 .footer-container {
     background-color: rgb(237, 157, 76); /* Optional */
     display: grid;
-    grid-gap: 1rem; /* Optional */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1rem; /* Optional */
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 15px;
-    margin-top: 15px;
+
 }
     
+@media screen and (max-width:1100px){
+    .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .firstimagehome{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .alignment{
+        margin-top: 170px;
+        margin-left: 15px;
+        align-content: none;
+        font-size:40px;
+        text-align: justify;
+    }
+}
+
 .column {
     color: #30306C;
     grid-template-columns: 1fr 1fr 1fr;
@@ -525,6 +587,18 @@ footer{
         display: table;
         clear: both;
     }
+
+    
+.bottomFooter{
+    background-color: #30306C;
+    color: #FF974B;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*FAQ*/
 
@@ -596,3 +670,16 @@ footer{
     bottom: 80px;
     right: 30px;
 }
+
+
+.dot,.fulldot {
+    height: 8px;
+    width: 8px;
+    background-color: #FF974B;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .fulldot{
+      background-color: #30306C;
+  }
