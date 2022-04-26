@@ -152,9 +152,9 @@
 }
 
 .keys{
-    width: 200px;
-    height: 300px;
-    transform: rotate(50deg);
+    width: 180px;
+    height: 280px;
+    margin-top: 40px;
 }
 
 .firstimagehome{
