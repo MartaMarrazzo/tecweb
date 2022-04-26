@@ -152,9 +152,8 @@
 }
 
 .keys{
-    width: auto;
-    height: auto;
-    rotate: 10%;
+    width: 200px;
+    height: 300px;
     transform: rotate(50deg);
 }
 
@@ -521,6 +520,10 @@ footer{
         align-content: none;
         font-size:40px;
         text-align: justify;
+    }
+
+    .keys{
+         display: none;
     }
 }
 
