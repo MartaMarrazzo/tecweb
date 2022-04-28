@@ -482,6 +482,54 @@ menu ul{
     color: #30306C;
 }
 
+/*regolamento*/
+.reg{
+    text-align:center;
+}
+
+.regolamento1{
+    font-size: xx-large;
+    color: #30306C;
+    text-align: center;
+}
+
+.photo{
+    width: 90px;
+    height: 90px;
+    
+}  
+
+.rectangle1{
+    margin-left: 10%;
+    margin-right: 5%;
+    background: #FF974B;
+    width: 1100px;
+    height: 300px;
+}   
+.rectangle1text{
+    padding-top: 7px;
+    margin-left: 2%;
+    font-size: x-large;
+    color: #30306C;
+    text-align: center;
+}
+
+.areapubtext{
+    padding-top: 2px;
+    font-size: medium;
+    margin-left: 2%;
+    color: #000000;
+    text-align: left;
+}
+
+.areaprivtext{
+    padding-top: 2px;
+    font-size: medium;
+    margin-left: 2%;
+    color: #000000;
+    text-align: left;
+}
+
 /*footer*/
 footer{
     margin-top: 100px;
