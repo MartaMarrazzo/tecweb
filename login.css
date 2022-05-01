@@ -1,0 +1,55 @@
+.body{
+    width: 650px;
+    height: auto;
+    background: aqua;
+    
+}
+
+.titolo{
+    margin-top: 5%;
+    text-align: center;
+    color: #30306C;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.loginsection{
+    text-align: center;
+}
+.input-label{
+    font-size: 16px;
+    font-weight:600;
+    color: #30306C;
+}
+.input-field{
+    font-family:'Work Sans', sans-serif;
+    font-size: 13px;
+    color: #30306C;
+    background-color: #fac49d;
+    padding: 12px 16px;
+    width: auto;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+
+
+.button{
+    color: #FFFFFF;
+    background-color: #FF974B;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:12px 24px ;
+    border: none;
+    border-radius: 36px;
+}
+
+
+.bottomlogo{
+    font-size: 13px;
+    font-weight: 300;
+    color: #30306C;
+}
