@@ -1,0 +1,103 @@
+
+.arancione, .arancione2{
+    margin-left: 0%;
+    text-align: start;
+    color: #FF974B;
+    background-color: #FFFFFF;
+}
+
+.titolo{
+    margin-top: 5%;
+    text-align: center;
+    color: #30306C;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.blu{
+    margin-left: 0%;
+    margin-top: -8px;
+    text-align: start;
+    background-color: #FFFFFF;
+    color: #30306C;
+    font-size: smaller;
+}
+
+.arancione2{
+    font-size: xx-small;
+    margin-top: -20px;
+}
+
+.griglia li{
+    display: inline-block;
+    margin: 24px;
+}
+
+.griglia ul li p {
+    padding: 5px 5px 0 5px;
+    margin: 0;
+    font-size: 12px;
+}
+
+
+.foto{
+    height: 210px;
+    width: 210px;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px; /* in modo da vincolare l'estensione massima
+    in modo che resti tutto contenuto e compresso senza rompere il layout*/
+
+}
+
+
+a {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    color: #FF974B;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+p {
+    font-size: 16px;
+    margin-bottom:12px;
+    margin-left: 30px;
+
+}
+a:hover{
+    color: #30306C;
+}
+ 
+
+.anchors{
+    visibility: hidden;
+    position: relative;
+    top: -50px;
+
+}
+.menucatalogo ul{
+    margin-left: 290px;
+    list-style-type: none;
+    display: flex;
+}
+
+.menucatalogo ul li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 42px;
+    display: inline-flex;
+}
+
+.menucatalogo ul li a {
+    list-style-type: none;
+    font-size: 14px;}
